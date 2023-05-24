@@ -1,0 +1,149 @@
+.maintitle
+{
+   margin:5% 25% 1% 25%;
+
+}
+.maintitle > h2{
+   color: rgb(11, 11, 11);
+   font-size: 30px;
+   font-weight: 600;
+   font-family: cursive;
+}
+.type{
+   margin:2%  0% 1%;
+}
+.type >h2{
+   color: rgb(0, 0, 0);
+   font-size: 35px;
+   font-weight: 900;
+   font-family: cursive;
+   
+   
+
+}
+.cardslider{
+   max-width: 1200px;
+   width: 100%;
+   padding:25px;
+   margin-left: 5%;
+   margin-bottom: 1%;
+   margin-right: 5%;
+  
+   background-color: rgb(238, 209, 209);
+   display: flex;
+}
+.cardslider .box{
+   background-color: rgb(255, 255, 255);
+   border-radius: 12px;
+   box-shadow: 10px 10px 8px 2px rgba(0, 0, 0, 0.2);
+   width: 20%;
+   margin:1.5%;
+   transition: 0.3s;
+   justify-content: space-between;
+}
+
+.cardslider .box .img_slider > img{
+   width: 100%;
+   height: 150px;
+   object-fit: contain;
+
+}
+.cardslider .box .img_slider{
+   padding: 5px;
+}
+.cardslider .box .title{
+   padding: 5px;
+}
+.cardslider .box .title >h3{
+   color: black;
+   font-weight: 600;
+   font-size: 16px;
+   font-style: normal;
+   font-family: sans-serif;
+}
+.btn {
+    
+   margin-left: 35%;
+   margin-bottom: 6%;
+   margin-top: 2%;
+   
+}
+
+.bt{
+   color: rgb(0, 0, 0);
+   background-color: rgb(235, 242, 137);
+   border-radius: 10px;
+   padding: 5px 30px 5px 30px;
+   font-family: sans-serif;
+   font-weight: 400;
+   font-size: medium;
+   
+}
+.bt:hover{
+   background-color: #f12020;
+}
+.modal {
+   width:50%;
+   background-color: rgb(255, 255, 255);
+   background-position: fixed;
+   margin:10% 18% 20% 22%;
+   border-radius: 30px;
+  padding:25px;
+  flex-direction: column;
+  align-items: center;  
+  display: flex;
+  justify-content: center;
+  
+  height: auto;
+  color: black;
+  font-size: large;
+  font-family: sans-serif;
+  overflow: auto;
+  /* position: absolute; */
+   
+}
+.modal > h1{
+   color: blueviolet;
+   font-weight:bolder;
+   font-family: cursive;
+}
+ .hidden{
+   display: none;
+
+}
+
+.blur{
+filter:  blur(25px);
+overflow-y: hidden;
+position: fixed;
+}
+.modal > button{
+   border-radius: 10px;
+   background-color: rgb(245, 216, 124);
+   padding: 0 20px 0 20px;
+}
+@media screen and (max-width: 600px){
+   .cardslider{
+      display: block;
+      width: 100%;
+      margin-top: 1%;
+      margin-left: 0%;
+      background-color: rgb(238, 209, 209);
+      
+   }
+   .cardslider .box{
+      width:auto;
+   }
+   .maintitle > h2{
+      font-size: 15px;
+      color: red;
+      
+   }
+   .modal {
+      width:100%;
+      margin:15% 10% 10% 0;
+      padding:10px;
+      background-position: fixed;
+      background-position: fixed;
+   }
+}

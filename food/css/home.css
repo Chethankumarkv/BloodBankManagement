@@ -1,0 +1,319 @@
+
+.titleHeader {
+    margin: 10% 10% 10%;
+}
+
+.titleHeader>h1 {
+    color: rgb(12, 13, 13);
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.titleHeader>h3 {
+    color: rgb(5, 5, 5);
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: cursive;
+    float: right;
+    margin-right: 70px;
+
+}
+
+.welcome {
+
+    background-color: white;
+    color: rgb(0, 7, 7);
+
+    width: 45%;
+    margin: -5% 25% 0 25%;
+    box-shadow: 1px 33px 113px -23px rgba(0, 0, 2, 0.62);
+    -webkit-box-shadow: 1px 33px 113px -23px rgba(0, 0, 2, 0.62);
+    -moz-box-shadow: 1px 33px 113px -23px rgba(0, 0, 2, 0.62);
+    border-radius: 45px;
+}
+
+.welcome>p {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    font-family: sans-serif;
+    padding: 15px;
+}
+
+.how {
+    margin: 5% 10% 0 15%;
+    background-color: transparent;
+
+}
+
+.how>h1 {
+    color: rgb(43, 43, 43);
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: cursive;
+    padding-left: 28%;
+
+}
+
+.cont {
+    margin: 3% 20% 2% 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card1 {
+    background-color: rgb(255, 253, 251);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 10px;
+    width: 25%;
+
+}
+
+.card2 {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    width: 25%;
+}
+
+.card3 {
+    background-color: rgb(249, 249, 249);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    width: 25%;
+}
+
+.card1:hover {
+    box-shadow: 10px 16px 20px 0 rgba(3, 3, 3, 0.2);
+}
+
+.card2:hover {
+    box-shadow: 10px 16px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card3:hover {
+    box-shadow: 10px 16px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cont>img {
+    border-radius: 20px 20px 10px 0;
+}
+
+.btn {
+    
+    margin-left: 45%;
+    margin-bottom: 6%;
+    margin-top: 2%;
+   
+    
+    
+}
+.bt{
+    color: rgb(0, 0, 0);
+    background-color: rgb(235, 242, 137);
+    border-radius: 10px;
+    padding: 5px 30px 5px 30px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    
+}
+.bt:hover{
+    background-color: #f12020;
+}
+
+.heads {
+    padding: 2px 16px;
+
+}
+
+.heads>h3 {
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+footer {
+    
+    bottom: 0px;
+    width: 100%;
+    background-color: #111;
+    
+}
+.main-content{
+    width: 100%;
+    display:flex;
+  
+}
+
+.email_user {
+    background-color: white;
+    border: 0;
+ 
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid black;
+    padding: 8.5px ;
+    width:220px;
+    border-radius: 25px;
+    transition: 0.25px ;
+}
+
+
+.main-content .box {
+    
+    padding: 15px 20px; 
+    background-color: #111;
+    color: white;
+    margin: 0%;
+    
+} 
+
+
+.box h2 {
+    float: left;
+   
+    font-weight: 600;
+    font-size: large;
+}
+
+.box .content {
+    padding-top: 10px;
+    margin: 20px 0 0 0;
+    text-align: left;
+}
+
+.left .content p {
+    text-align: justify;
+}
+
+.left .social {
+    margin: 20px 0 0 0;
+}
+
+.left .social a {
+    padding: 0 4px;
+}
+
+.left .social a span {
+    height: 40px;
+    width: 40px;
+    background: #161616;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    border-radius: 30%;
+    transition: 0.8s;
+}
+.left .social  span :hover{
+    background-color: #f12020;
+}
+.btnn{
+    margin-left: 0;
+    float: left;
+}
+.btnn :hover {
+    background: #f12020;
+}
+#email_id{
+    background-color: white;
+}
+
+@media screen and (max-width: 600px) {
+
+    .body {
+        background-size: cover;
+
+    }
+
+    .titleHeader {
+        margin: 10%;
+    }
+
+    .titleHeader>h1 {
+        color: rgb(236, 236, 236);
+        font-weight: bolder;
+        font-size: 10px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+
+    }
+
+    .titleHeader>h3 {
+        color: rgb(5, 5, 5);
+        font-weight: bolder;
+        font-size: 10px;
+        font-family: cursive;
+        float: right;
+        margin-right: 70px;
+
+    }
+
+    .main-content {
+        display: block;
+
+    }
+
+    .cont {
+
+        display: block;
+
+    }
+
+    .card {
+        width: 90%;
+        margin: 2% 0 2% 0%
+    }
+
+    .btn {
+        margin-left: 25%;
+        margin-bottom: 6%;
+        margin-top: 2%;
+    }
+
+    .how>h1 {
+        font-size: 25px;
+    }
+
+    .how {
+        margin: 5% 15% 0 15%;
+    }
+    .welcome{
+        width:70%;
+        margin:2% 15% 0 15%;
+    }
+    .main-content{
+        width:  70%;
+        display:block;
+        align-content: center;
+      
+    }
+    .main-content .box {
+        
+        padding: 5%  0% 0% 0%; 
+        background-color: rgb(0, 0, 0);
+        color: white;
+        margin: 5% 20% 0% 20%
+
+        
+    } 
+    footer{
+       
+     
+        width: auto;
+       
+        background-color: rgb(0, 0, 0);
+       
+    }
+    .box .content {
+        width: 100%;;
+        margin: 20px 0 0 0;
+        text-align: left;
+    }
+}

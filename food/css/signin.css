@@ -1,0 +1,91 @@
+        
+        
+.box{
+    width: 40%;
+   
+     
+    padding:50px;
+    margin: 10% 30% 10% 30%;
+    transform: translate(-50% -50%);
+    background: rgb(244, 244, 244);
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.9s;
+    justify-content: space-between;
+}
+.box> h1{
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+    
+
+}.box input[type ="text"],.box input[type="password"],.box input[type ="email"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid black;
+    padding: 8.5px ;
+    width:220px;
+    border-radius: 25px;
+    transition: 0.25px ;
+}
+
+
+
+.box input[type ="text"]:focus,.box input[type="password"]:focus,.box input[type ="email"]:focus{
+    width: 270px;
+    border-color: darkorange;
+   
+}
+.box input[type="submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid rgb(247, 238, 121);
+    padding: 8.5px ;
+    width:90px;
+    border-radius: 25px;
+    transition: 0.25px ;
+    background-color: rgb(244, 230, 43);
+    cursor: pointer;
+}
+.box> h3
+{
+    font-weight: 400;
+    font-style: normal;
+    font-family: cursive;
+    color: black;
+    font-size: medium;
+}
+.box >a{
+    color: black;
+    font-size: medium;
+    font-weight: 400;
+    font-style: normal;
+    font-family: cursive;
+}
+
+@media screen and (max-width: 600px){
+    .box{
+        width: 100%;
+        margin: 20% 0% 20% 0%;
+        
+    }
+    .box input[type ="text"], .box input[type ="text"],.box input[type="password"]{
+        width:130px;
+        margin: 10px auto;
+        padding: 4px;
+        align-items: center;
+        padding: 15px;
+    }
+    .box input[type ="text"]:focus, .box input[type ="text"]:focus,.box input[type="password"]:focus{
+        width:150px;
+    border-color: darkorange;
+    padding: 4px;
+    }
+}
